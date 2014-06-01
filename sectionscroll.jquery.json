@@ -1,0 +1,42 @@
+{
+	"name": "sectionscroll",
+	"title": "jQuery.sectionScroll",
+	"description": "The jQuery section scroll widget creates a side menu that allows you to scroll to the different sections on the page.",
+	"keywords": [
+		"animate",
+		"animation",
+		"fragment",
+		"hash",
+		"jquery",
+		"responsive",
+		"section",
+		"scroll",
+		"scrollTo"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "miWebb",
+		"email": "info@miwebb.com",
+		"url": "https://www.miwebb.com"
+	},
+	"maintainers": [
+		{
+			"name": "Michael Webbers",
+			"email": "m.webbers@miwebb.com",
+			"url": "https://www.miwebb.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/miWebb/jQuery.sectionScroll/blob/master/LICENSE"
+		}
+	],
+	"bugs": "https://github.com/miWebb/jQuery.sectionScroll/issues",
+	"homepage": "https://github.com/miWebb/jQuery.sectionScroll",
+	"docs": "https://github.com/miWebb/jQuery.sectionScroll",
+	"download": "https://github.com/miWebb/jQuery.sectionScroll/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.7.0"
+	}
+}
