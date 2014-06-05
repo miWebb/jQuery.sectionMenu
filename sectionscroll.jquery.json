@@ -32,10 +32,11 @@
 			"url": "https://github.com/miWebb/jQuery.sectionScroll/blob/master/LICENSE"
 		}
 	],
-	"bugs": "https://github.com/miWebb/jQuery.sectionScroll/issues",
-	"homepage": "https://github.com/miWebb/jQuery.sectionScroll",
+	"download": "https://github.com/miWebb/jQuery.sectionScroll/releases",
+	"homepage": "https://miWebb.github.com/jQuery.sectionScroll",
+	"demo": "https://miWebb.github.com/jQuery.sectionScroll",
 	"docs": "https://github.com/miWebb/jQuery.sectionScroll",
-	"download": "https://github.com/miWebb/jQuery.sectionScroll/archive/master.zip",
+	"bugs": "https://github.com/miWebb/jQuery.sectionScroll/issues",
 	"dependencies": {
 		"jquery": ">=1.7.0"
 	}
