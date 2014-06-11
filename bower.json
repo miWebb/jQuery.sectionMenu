@@ -1,12 +1,12 @@
 {
-	"name": "jQuery.sectionScroll",
-	"description": "The jQuery section scroll widget creates a side menu that allows you to scroll to the different sections on the page.",
+	"name": "jQuery.sectionMenu",
+	"description": "The jQuery section menu plugin creates a side menu that allows you to scroll to the different sections on the page.",
 	"version": "1.0.0",
-	"main": "assets/js/jquery.sectionScroll.min.js",
+	"main": "assets/js/jquery.sectionMenu.min.js",
 	"ignore": [
 		"*.md",
 		"LICENSE",
-		"sectionscroll.jquery.json"
+		"sectionmenu.jquery.json"
 	],
 	"dependencies": {
 		"jquery": ">= 1.7.0"
