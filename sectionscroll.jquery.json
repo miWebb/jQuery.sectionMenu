@@ -1,13 +1,15 @@
 {
-	"name": "sectionscroll",
-	"title": "jQuery.sectionScroll",
-	"description": "The jQuery section scroll widget creates a side menu that allows you to scroll to the different sections on the page.",
+	"name": "sectionmenu",
+	"title": "jQuery.sectionMenu",
+	"description": "The jQuery section menu plugin creates a side menu that allows you to scroll to the different sections on the page.",
 	"keywords": [
 		"animate",
 		"animation",
 		"fragment",
 		"hash",
 		"jquery",
+		"menu",
+		"navigation",
 		"responsive",
 		"section",
 		"scroll",
@@ -24,20 +26,26 @@
 			"name": "Michael Webbers",
 			"email": "m.webbers@miwebb.com",
 			"url": "https://www.miwebb.com"
+		},
+		{
+			"name": "Niels Groot Obbink",
+			"email": "info@webosaur.nl",
+			"url": "http://webosaur.nl"
 		}
 	],
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "https://github.com/miWebb/jQuery.sectionScroll/blob/master/LICENSE"
+			"url": "https://github.com/miWebb/jQuery.sectionMenu/blob/master/LICENSE"
 		}
 	],
-	"download": "https://github.com/miWebb/jQuery.sectionScroll/releases",
-	"homepage": "https://miWebb.github.com/jQuery.sectionScroll",
-	"demo": "https://miWebb.github.com/jQuery.sectionScroll",
-	"docs": "https://github.com/miWebb/jQuery.sectionScroll",
-	"bugs": "https://github.com/miWebb/jQuery.sectionScroll/issues",
+	"download": "https://github.com/miWebb/jQuery.sectionMenu/releases",
+	"homepage": "https://miWebb.github.com/jQuery.sectionMenu",
+	"demo": "https://miWebb.github.com/jQuery.sectionMenu",
+	"docs": "https://github.com/miWebb/jQuery.sectionMenu",
+	"bugs": "https://github.com/miWebb/jQuery.sectionMenu/issues",
 	"dependencies": {
-		"jquery": ">=1.7.0"
+		"jquery": ">=1.7.0",
+		"jquery.fragmentscroll": ">=1.0.0"
 	}
 }
