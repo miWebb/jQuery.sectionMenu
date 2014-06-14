@@ -26,9 +26,14 @@ The jQuery section menu plugin creates a side menu that allows you to scroll to 
 
 ### Javascript
 
-<pre>$(window).load(function() {
+<pre>&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">&lt;/script>
+&lt;script type="text/javascript" src="assets/js/jquery.fragmentscroll.min.js">&lt;/script>
+&lt;script type="text/javascript" src="assets/js/jquery.sectionmenu.min.js">&lt;/script>
+&lt;script type="text/javascript">
+$(window).load(function() {
 	$('body').sectionMenu().fragmentScroll();
-});</pre>
+});
+&lt;/script></pre>
 
 ## Options
 
