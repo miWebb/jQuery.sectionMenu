@@ -1,7 +1,7 @@
 {
 	"name": "jQuery.sectionMenu",
 	"description": "The jQuery section menu plugin creates a side menu that allows you to scroll to the different sections on the page.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "assets/js/jquery.sectionMenu.min.js",
 	"ignore": [
 		"*.md",

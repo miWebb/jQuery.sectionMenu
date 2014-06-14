@@ -1,5 +1,5 @@
 /*!
-* jQuery Section Menu v1.0.0
+* jQuery Section Menu v1.0.1
 *
 * Copyright 2014 miWebb
 * Released under the MIT license
