@@ -1,7 +1,7 @@
-jQuery.sectionScroll
+jQuery.sectionMenu
 ====================
 
-The jQuery section scroll widget creates a side menu that allows you to scroll to the different sections on the page. Check the [demo](https://miwebb.github.io/jQuery.sectionScroll/) for more information.
+The jQuery section menu plugin creates a side menu that allows you to scroll to the different sections on the page. Check the [demo](https://miwebb.github.io/jQuery.sectionMenu/) for more information.
 
 ## Example
 
@@ -9,48 +9,42 @@ The jQuery section scroll widget creates a side menu that allows you to scroll t
 
 <pre>&lt;html>
 	&lt;body>
-		&lt;section id="home" data-title="Home">
+		&lt;section id="home" data-section-menu="Home">
 			&lt;p>Home&lt;/p>
 		&lt;/section>
-		&lt;section id="about" data-title="About">
+		&lt;section id="about" data-section-menu="About">
 			&lt;p>About&lt;/p>
 		&lt;/section>
-		&lt;section id="contact" data-title="Contact">
+		&lt;section id="contact" data-section-menu="Contact">
 			&lt;p>Contact&lt;/p>
 		&lt;/section>
 	&lt;/body>
 &lt;/html></pre>
 
 ### CSS
-<pre>&lt;link rel="stylesheet" href="assets/css/jquery.sectionscroll.css" /></pre>
+<pre>&lt;link rel="stylesheet" href="assets/css/jquery.sectionmenu.css" /></pre>
 
 ### Javascript
 
 <pre>$(window).load(function() {
-	$('body').sectionScroll();
+	$('body').sectionMenu().fragmentScroll();
 });</pre>
 
 ## Options
 
-<pre>$('body').sectionScroll({
-	// Show fragment in URL.
-	showFragment: false,
+<pre>$('body').sectionMenu({
+	// Show title in the menu
+	enableTitle: true,
 
-	// The frame that will scroll if the content overflows the elements box. (body for webkit browsers)
-	frame: 'html, body',
+	// Outer element
+	element: 'nav',
 
-	// The offset from the top of the element.
-	offset: 0,
+	// Class and data- name
+	class: 'section-menu',
 
-	// The animation time in microseconds.
-	speed: 1000,
+	// Insert content before the menu
+	insertBefore: '',
 
-	// Animation effect. (http://www.easings.net)
-	easing: 'swing'
-
-	// Call function on start.
-	onStart: function() {},
-
-	// Call function on complete.
-	onComplete: function() {}
+	// Insert content after the menu
+	insertAfter: ''
 });</pre>
