@@ -1,0 +1,14 @@
+.section-menu a
+{
+	color: black;
+}
+
+.section-menu a:before
+{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.section-menu a:hover:before
+{
+	background: black;
+}
