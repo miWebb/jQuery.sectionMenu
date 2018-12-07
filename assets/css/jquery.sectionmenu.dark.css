@@ -1,0 +1,16 @@
+.section-menu a
+{
+	color: black;
+}
+
+.section-menu a::after
+{
+	background-color: black;
+	box-shadow: 0 0 0 4px transparent;
+}
+
+.section-menu a:hover::after
+{
+	background-color: transparent;
+	box-shadow: 0 0 0 4px black;
+}
