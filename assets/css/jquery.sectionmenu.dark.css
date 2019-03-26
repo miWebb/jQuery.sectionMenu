@@ -3,12 +3,14 @@
 	color: black;
 }
 
-.section-menu a:before
+.section-menu a::after
 {
-	background: rgba(0, 0, 0, 0.5);
+	background-color: black;
+	box-shadow: 0 0 0 4px transparent;
 }
 
-.section-menu a:hover:before
+.section-menu a:hover::after
 {
-	background: black;
+	background-color: transparent;
+	box-shadow: 0 0 0 4px black;
 }
