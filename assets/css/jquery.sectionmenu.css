@@ -53,7 +53,8 @@
 	transition: all 0.3s ease;
 }
 
-.section-menu a:hover span
+.section-menu a:hover span,
+.section-menu a.active span
 {
 	opacity: 1;
 }
